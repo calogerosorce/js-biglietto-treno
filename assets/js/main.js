@@ -1,4 +1,5 @@
-/*Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
+/*
+Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
 
 Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
 
@@ -13,5 +14,9 @@ prompt
 calcolo percentuale con operatore di comparazione (> < =) in base all'età
 if / else if / else
 allert / log
-
 */
+
+// Creo prompt dell'età da inserire
+// Creo prompt km che vorrai percorre
+// Creo calcolo  della percentuale in base all'età
+// Creo calcolo € in base ai km percorsi
