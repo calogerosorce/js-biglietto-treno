@@ -17,6 +17,16 @@ allert / log
 */
 
 // Creo prompt dell'età da inserire
+const eta1 = Number(prompt('Quanti anni hai?'))
+const eta2 = Number(prompt('Quanti anni hai?'))
+console.log(eta1);
+console.log(eta2);
+
 // Creo prompt km che vorrai percorre
+const km1 = Number(prompt('Quanti km percorrerai?'))
+const km2 = Number(prompt('Quanti km percorrerai?'))
+console.log(km1);
+console.log(km2);
+
 // Creo calcolo  della percentuale in base all'età
 // Creo calcolo € in base ai km percorsi
