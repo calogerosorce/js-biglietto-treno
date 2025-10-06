@@ -64,7 +64,7 @@ if (eta2 <= 17) {
     console.log(percentuale2_decimale);
 
 } else {
-    const full_price = (km1 * 0.21)
+    const full_price = (km2 * 0.21)
     const full_price1_decimale = full_price.toFixed(2)
     console.log(full_price1_decimale);
 }
