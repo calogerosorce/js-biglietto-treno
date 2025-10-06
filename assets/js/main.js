@@ -22,7 +22,7 @@ const eta2 = Number(prompt('Quanti anni hai?'))
 console.log(eta1);
 console.log(eta2);
 
-// Creo prompt km che vorrai percorre
+// Creo prompt km che vorrai percorrere
 const km1 = Number(prompt('Quanti km percorrerai?'))
 const km2 = Number(prompt('Quanti km percorrerai?'))
 console.log(km1);
