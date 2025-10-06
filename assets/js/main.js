@@ -29,4 +29,31 @@ console.log(km1);
 console.log(km2);
 
 // Creo calcolo  della percentuale in base all'età
-// Creo calcolo € in base ai km percorsi
+if (eta1 <= 17) {
+    // Creo calcolo € in base ai km percorsi
+    const percentuale1 = ((km1 * 0.21) - ((km1 * 0.21) * 20 / 100))
+    const percentuale1_decimale = percentuale1.toFixed(2)
+    console.log(percentuale1_decimale);
+
+
+} else {
+    // Creo calcolo € in base ai km percorsi
+    const percentuale2 = ((km1 * 0.21) - ((km1 * 0.21) * 40 / 100))
+    const percentuale2_decimale = percentuale2.toFixed(2)
+    console.log(percentuale2_decimale);
+
+}
+
+if (eta2 <= 17) {
+    // Creo calcolo € in base ai km percorsi
+    const percentuale1 = ((km2 * 0.21) - ((km2 * 0.21) * 20 / 100))
+    const percentuale1_decimale = percentuale1.toFixed(2)
+    console.log(percentuale1_decimale);
+
+} else {
+    // Creo calcolo € in base ai km percorsi
+    const percentuale2 = ((km2 * 0.21) - ((km2 * 0.21) * 40 / 100))
+    const percentuale2_decimale = percentuale2.toFixed(2)
+    console.log(percentuale2_decimale);
+
+}
