@@ -17,32 +17,32 @@ allert / log
 */
 
 // Creo prompt dell'età da inserire
-const eta1 = Number(prompt('Quanti anni hai?'))
-console.log(eta1);
+const eta = Number(prompt('Quanti anni hai?'))
+console.log(eta);
 
 
 // Creo prompt km che vorrai percorrere
-const km1 = Number(prompt('Quanti km percorrerai?'))
-console.log(km1);
+const km = Number(prompt('Quanti km percorrerai?'))
+console.log(km);
 
 
 
 // Creo calcolo  della percentuale in base all'età
-if (eta1 <= 17) {
+if (eta <= 17) {
     // Creo calcolo € in base ai km percorsi
-    const percentuale1 = ((km1 * 0.21) - ((km1 * 0.21) * 20 / 100))
-    const percentuale1_decimale = percentuale1.toFixed(2)
-    console.log(percentuale1_decimale);
+    const percentuale = ((km * 0.21) - ((km * 0.21) * 20 / 100))
+    const percentuale_decimale = percentuale.toFixed(2)
+    console.log(percentuale_decimale);
 
 
-} else if (eta1 >= 65) {
+} else if (eta >= 65) {
     // Creo calcolo € in base ai km percorsi
-    const percentuale2 = ((km1 * 0.21) - ((km1 * 0.21) * 40 / 100))
-    const percentuale2_decimale = percentuale2.toFixed(2)
-    console.log(percentuale2_decimale);
+    const percentuale = ((km * 0.21) - ((km * 0.21) * 40 / 100))
+    const percentuale_decimale = percentuale.toFixed(2)
+    console.log(percentuale_decimale);
 
 } else {
-    const full_price = (km1 * 0.21)
-    const full_price1_decimale = full_price.toFixed(2)
-    console.log(full_price1_decimale);
+    const full_price = (km * 0.21)
+    const full_price_decimale = full_price.toFixed(2)
+    console.log(full_price_decimale);
 }
